@@ -13,6 +13,9 @@
 		2E4B367E2A4AB02900B77F87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4B367C2A4AB02900B77F87 /* Main.storyboard */; };
 		2E4B36802A4AB02900B77F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4B367F2A4AB02900B77F87 /* Assets.xcassets */; };
 		2E4B36832A4AB02900B77F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4B36812A4AB02900B77F87 /* LaunchScreen.storyboard */; };
+		2E4B368B2A4AC02700B77F87 /* PopUpStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4B368A2A4AC02700B77F87 /* PopUpStoryboard.storyboard */; };
+		2E4B368D2A4AD0F200B77F87 /* CustomPopUpViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B368C2A4AD0F200B77F87 /* CustomPopUpViewViewController.swift */; };
+		2E4B36902A4ADA6600B77F87 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4B368F2A4ADA6600B77F87 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2E4B367F2A4AB02900B77F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E4B36822A4AB02900B77F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E4B36842A4AB02900B77F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4B368A2A4AC02700B77F87 /* PopUpStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopUpStoryboard.storyboard; sourceTree = "<group>"; };
+		2E4B368C2A4AD0F200B77F87 /* CustomPopUpViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpViewViewController.swift; sourceTree = "<group>"; };
+		2E4B368F2A4ADA6600B77F87 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4B36902A4ADA6600B77F87 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,7 @@
 			children = (
 				2E4B36752A4AB02900B77F87 /* CustomPopUp */,
 				2E4B36742A4AB02900B77F87 /* Products */,
+				2E4B368E2A4ADA6600B77F87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +71,18 @@
 				2E4B367F2A4AB02900B77F87 /* Assets.xcassets */,
 				2E4B36812A4AB02900B77F87 /* LaunchScreen.storyboard */,
 				2E4B36842A4AB02900B77F87 /* Info.plist */,
+				2E4B368A2A4AC02700B77F87 /* PopUpStoryboard.storyboard */,
+				2E4B368C2A4AD0F200B77F87 /* CustomPopUpViewViewController.swift */,
 			);
 			path = CustomPopUp;
+			sourceTree = "<group>";
+		};
+		2E4B368E2A4ADA6600B77F87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E4B368F2A4ADA6600B77F87 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +145,7 @@
 			files = (
 				2E4B36832A4AB02900B77F87 /* LaunchScreen.storyboard in Resources */,
 				2E4B36802A4AB02900B77F87 /* Assets.xcassets in Resources */,
+				2E4B368B2A4AC02700B77F87 /* PopUpStoryboard.storyboard in Resources */,
 				2E4B367E2A4AB02900B77F87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +160,7 @@
 				2E4B367B2A4AB02900B77F87 /* ViewController.swift in Sources */,
 				2E4B36772A4AB02900B77F87 /* AppDelegate.swift in Sources */,
 				2E4B36792A4AB02900B77F87 /* SceneDelegate.swift in Sources */,
+				2E4B368D2A4AD0F200B77F87 /* CustomPopUpViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
